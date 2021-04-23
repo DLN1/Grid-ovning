@@ -1,0 +1,45 @@
+.container {
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    outline: 5px solid red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    height: 100%;
+    width: 100%;
+    outline: 5px solid red;
+    background-color: pink;
+}
+
+.grid2 {
+    grid-template-columns: 20% auto;
+}
+
+.grid3 {
+    grid-template-columns: 20% auto auto;
+}
+
+.grid4 {
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+}
+
+.grid5 {
+    grid-template-rows: 20% auto;
+    grid-template-columns: 100%;
+}
+
+.grid6 {
+    grid-template-rows: 20% auto auto;
+    grid-template-columns: 100%;
+}
